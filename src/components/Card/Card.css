@@ -1,0 +1,15 @@
+.card{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card .card-body{
+    background-color: #007bff;
+}
+.card img{
+    border-radius: none;
+    height: 270px;
+}
+.container .card{
+    margin: 10px;
+}
