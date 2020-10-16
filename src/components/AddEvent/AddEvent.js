@@ -33,7 +33,7 @@ const AddEvent = () => {
         }
  
     return (
-        <div className='container row ml-5' >
+        <div className='container row' >
 
            {
              event.map(item => <SubscribedEvent id={item._id} item={item} handleDelete={handleDelete}></SubscribedEvent>)

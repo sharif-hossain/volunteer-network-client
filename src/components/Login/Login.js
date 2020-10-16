@@ -36,12 +36,13 @@ const Login = () => {
             </div>
             <div className="row">
                 <div className="col-md-3"></div>
-                <div className="col-md-6">
+                <div className="col-md-5">
                     <div className="form-control social-btn ml-3 m-2" onClick={handleGoogleSignIn}>
                         <h2 className="mt-3">Login with</h2>       
-                        <div className="ml-5 google-btn"> Continue with Google</div>  
+                        <div className="ml-2 google-btn"> Continue with Google</div>  
                     </div>
                 </div>
+                <div className="col-md-3"></div>
             </div>
         </div>
     );
